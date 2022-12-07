@@ -28,7 +28,7 @@ if (procurarProduto) {
 console.log("--------------")
 
 // Removendo o segundo item da lista
-console.log("Removendo segundo item: " + produtos.filter((p) => p !== "Telefone" , "Mouse"));
+console.log("Removendo segundo item: " + produtos.filter((p) => p === "Telefone"));
 
 console.log("--------------")
 
